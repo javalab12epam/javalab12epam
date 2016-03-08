@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Parents selectors</title>
+    <style>
+        body {
+            font-size: 28px;
+        }
+        h2 {
+            color: green;
+            margin-top: 0;
+        }
+        
+        h1 + h2 {
+            margin-top: 30px;
+        }
+        
+        p .name {
+            outline: dotted #333 1px;
+        }
+        
+        p > .name {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h2>Heading 2</h2>
+    <h2>Heading 2</h2>
+    <p>Lorem <i class="name">ipsum</i> dolor <span>sit <i class="name">amet</i></span></p>
+</body>
+
+</html>

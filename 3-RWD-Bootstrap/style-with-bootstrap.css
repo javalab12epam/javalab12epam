@@ -1,0 +1,37 @@
+body {
+  font: 20px/normal Arial;
+}
+
+header {
+  background: yellow;
+}
+
+nav li {
+  text-align: center;
+  line-height: 30px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+footer {
+  padding: 20px;
+  text-align: right;
+  background: #ddd;
+}
+
+.myimg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  nav li {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced attributes selectors</title>
+    <style>
+        body {
+            font-size: 28px;
+        }
+        /* Attribute value starts with some text */
+        
+        a[href^="http://"] {
+            color: red;
+        }
+        /* If link ends with ".ru" */
+        
+        a[href$=".com"] {
+            background: #fc0;
+        }
+        /* If link contains "google" */
+        
+        [href*="google"] {
+            background: yellow;
+        }
+        /* One of the several attribute values */
+        
+        [title~="block"] {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <p><a href="http://mail.ru" target="_blank">External link to mail.ru</a></p>
+    <p><a href="http://www.yandex.com">Yandex.com</a></p>
+    <p><a href="http://google.ru">Search the web</a></p>
+    <h3 title="block tag">Heading</h3>
+</body>
+
+</html>

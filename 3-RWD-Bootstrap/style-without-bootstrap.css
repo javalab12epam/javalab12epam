@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+body {
+  font: 20px/normal Arial;
+}
+
+header {
+  background: yellow;
+}
+
+nav li {
+  text-align: center;
+  line-height: 30px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+footer {
+  clear: both;
+  padding: 20px;
+  text-align: right;
+  background: #ddd;
+}
+
+.myimg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  #content {
+    width: 60%;
+  }
+  #right-sidebar-1 {
+    width: 20%;
+  }
+  #right-sidebar-2 {
+    width: 20%;
+  }
+  body {
+    font-size: 16px;
+  }
+  nav li {
+    display: inline-block;
+  }
+  .pad {
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+}

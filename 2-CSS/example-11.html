@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Attributes selectors</title>
+    <style>
+        body {
+            font-size: 24px;
+        }
+        q[title] {
+            color: maroon;
+        }
+        
+        a[target="_blank"] {
+            background: #ccc;
+            padding-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <q title="Some title text">Lorem ipsum dolor sit amet, consectetur adipisicing elit</q>
+    <p><a href="#link">Посилання</a></p>
+    <p><a href="#link" target="_blank">Посилання відкриється в новому вікні</a></p>
+</body>
+
+</html>

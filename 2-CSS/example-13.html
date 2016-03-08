@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudoclasses. Demo</title>
+    <style>
+        body {
+            font-size: 28px;
+        }
+        a:link {
+            color: #036;
+            /* The color of not visited links */
+        }
+        
+        a:hover {
+            color: #f00;
+            /* The color of links on mouse pointer hovering */
+        }
+        
+        a:visited {
+            color: #606;
+            /* The color of visited links */
+        }
+        
+        a:visited:hover {
+            color: #303;
+            /* The color of not visited links on hover */
+        }
+        
+        a:active {
+            color: #ff0;
+            /* The color of active links */
+        }
+        
+        b:first-child {
+            color: red;
+            /* The color of the first tag */
+        }
+        
+        b:last-child {
+            color: green;
+            /* The color of the last tag */
+        }
+    </style>
+</head>
+
+<body>
+    <p><b>Lorem ipsum</b> dolor sit <a href="1.html">Link</a> amet, <b>consectetuer</b> adipiscing <b>elit</b>, sed diem nonummy nibh eut lacreet dolore magna <b>aliguam</b> erat volutpat.</p>
+</body>
+
+</html>
